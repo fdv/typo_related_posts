@@ -1,0 +1,17 @@
+Typo releted posts plugin
+=========================
+
+This small plugin just displays related posts to the current article.
+
+To install:
+script/plugin install http://svn.7el.net/plugins/typo_related_posts/trunk
+
+or to use svn:externals to get updates
+script/plugin install -x http://svn.7el.net/plugins/typo_related_posts/trunk
+
+To add in any Typo template, generally in template/views/articles/read.html.erb, just do:
+<%= render_related_posts %>
+
+Any feedback goes to: 
+Frédéric de Villamil <frederic@de-villamil.com>
+http://fredericdevillamil.com
